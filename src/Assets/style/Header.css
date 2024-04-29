@@ -1,0 +1,38 @@
+.header {
+    background-color: #f0eeee; /* Light pastel pink */
+    color: #333; /* Dark gray for better contrast */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Thin border for separation */
+    
+  }
+  
+  .left h1 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif, cursive; /* Playful cursive font */
+    font-size: 2em; /* Increase heading size */
+  }
+  
+  .right span {
+    margin-left: 20px;
+    padding: 5px 10px; /* Add some padding for better spacing */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+
+  .search-bar {
+    padding: 5px;
+    margin-right: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .right span:hover {
+    background-color: #eee; /* Light gray background on hover */
+    text-decoration: none; /* Remove underline */
+  }
+  
